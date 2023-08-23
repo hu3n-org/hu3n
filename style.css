@@ -1,0 +1,127 @@
+nav{
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(31, 30, 30);
+     color: white;
+     padding: 10px 20px;
+     align-items: center;
+}
+nav h1{
+    font-size: 30px;
+    color: rgb(234, 173, 4);
+
+}
+
+nav .white{
+    color: white;
+     
+}
+
+.menu ul{
+     list-style: none;
+     display: flex;
+     gap: 1.3rem; 
+    
+}
+nav .menu ul li{
+     gap: 1rem;
+     font-size: 25px;
+}
+
+.menu ul li:hover{
+      background-color: rgb(51, 49, 49);
+      border-radius: 15px;
+}
+.menu input{
+           padding: 10px; 
+           margin-left: 30px;  
+             
+}
+form input{
+     padding: 15px;
+     width: 200px;
+     font-size: large;  k 
+}
+
+#s1{
+     margin-top: 20px;
+     width: 200px;
+     font-size: large;
+     padding: 15px 50px;
+     background-color: orange;
+     border-radius: 20px;
+     position: relative;
+     overflow: hidden;
+     transition: all 0.5s;
+     
+}
+
+#s1:hover{
+      background-color:white;
+      border: 2px solid aqua;
+
+}
+
+
+
+
+
+
+.first_title{
+     background-color: rgb(186, 143, 65);
+     color: rgb(116, 223, 187);
+     padding-left: 10px;
+     border-radius: 20px;
+}
+
+#covid{
+     padding: 20px;
+     border-radius: 10px;
+     border: 2px solid rgb(114, 235, 235);
+     cursor: pointer;
+}
+#covid:hover{
+     background-color: rgb(215, 208, 208);
+     border: 2px solid rgb(28, 176, 176);
+}
+
+.email_sign{
+     border-radius: 20px;
+     height: 50px;
+}
+.email_sign button{
+      background-color: skyblue;
+}
+
+.email_sign input{
+     border: none;
+     font-size: large;
+     background-color: skyblue;
+     color: black;
+      
+}
+
+.table h1{
+      background-color: skyblue;
+      padding: 10px;
+      cursor: pointer;
+}
+
+.table h1:hover{
+      color: white;
+}
+footer h1{
+      color: orange;
+}
+footer .white{
+      color: black;
+}
+footer{
+      text-align: center;
+}
+
+
+
+ /* hover fanction starts here  */
+
+ 
